@@ -1,0 +1,19 @@
+html {
+	background: url('http://hdblackwallpaper.com/wallpaper/2015/12/black-and-white-photography-10-cool-wallpaper.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.content {
+	position: relative;
+	top: 20vh;
+	padding: 24px;
+}
+
+h1 {
+	font-family: 'Nixie One', cursive;
+	font-size: 48px;
+	color: #FFFFFF;
+}
