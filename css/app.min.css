@@ -3,6 +3,10 @@ html, body {
     overflow-x: hidden;
 }
 
+section {
+	height: 100vh;
+}
+
 h1 {
 	margin: 14px 0;
 	font-size: 2rem;
@@ -35,7 +39,7 @@ p {
 }
 
 #leftPanel {
-	height:100vh;
+	height: 100vh;
 	background: -moz-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
 	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(153,218,255,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
 	background: -webkit-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
@@ -43,4 +47,19 @@ p {
 	background: -ms-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
 	background: linear-gradient(37deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#99DAFF',GradientType=0 ); /* ie6-9 */	
+}
+
+#rightPanel {
+	height: 100vh;
+}
+
+li {
+	display: inline;
+	margin: 32px 64px;
+	float: left;
+	text-decoration: none;	
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.25rem;
+	color: #A0A0A0;
 }
