@@ -3,8 +3,13 @@ html, body {
     overflow-x: hidden;
 }
 
-section {
-	height: 100vh;
+#main {
+	height: 100%;
+}
+
+img {
+	width: 500px;
+	height: 350px;
 }
 
 h1 {
@@ -38,6 +43,10 @@ p {
 	font-weight: 300;
 }
 
+#rightPanel {
+	height: 100vh;
+}
+
 #leftPanel {
 	height: 100vh;
 	background: -moz-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
@@ -47,10 +56,6 @@ p {
 	background: -ms-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
 	background: linear-gradient(37deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#99DAFF',GradientType=0 ); /* ie6-9 */	
-}
-
-#rightPanel {
-	height: 100vh;
 }
 
 li {
