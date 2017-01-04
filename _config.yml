@@ -1,0 +1,16 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Sreeraag Mohan | Personal Webpage
+description:      'Homo sapiens based in Bengaluru, KA.'
+url:              http://sreeraagmohan.github.io
+baseurl:          /
+
+author:
+  name:           'Sreeraag Mohan'
