@@ -42,7 +42,7 @@ h2 {
 
 p {
 	font-family: "Hind", sans-serif;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	line-height: 1.818;
 	font-weight: 300;
 }
@@ -62,17 +62,11 @@ p {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#99DAFF',GradientType=0 ); /* ie6-9 */	
 }
 
-/* Category Page */
-.category-img {
-  width: 300px;
-  height: 250px;
-}
-
 /* Hamburger Styles */
 a
 {
   color: #232323;
-  
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
@@ -123,7 +117,7 @@ a:hover
   margin-bottom: 5px;
   position: relative;
   
-  background: #FFFFFF;
+  background: #ededed;
   border-radius: 3px;
   
   z-index: 1;
@@ -183,7 +177,7 @@ a:hover
   position: absolute;
   width: 300px;
   height: 110vh;
-  margin: -100px 0 0 -50px;
+  margin: -100px -0 0 -50px;
   padding: 50px;
   padding-top: 125px;
   

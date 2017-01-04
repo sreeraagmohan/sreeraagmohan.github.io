@@ -1,71 +1,50 @@
-html, body {
-    max-width: 100%;
-    overflow: hidden;
+/* Category Page */
+body {
+  overflow-x: hidden;
+  background: #EDEDED;
 }
 
-#main {
-	height: 100%;
+#category h1 {
+  color: #000;
+}
+.category-img {
+  width: 350px;
+  height: 300px;
 }
 
-img {
-	width: 500px;
-	height: 350px;
+.container {
+  padding: 20px;
+  padding-top: 0;
 }
 
-h1 {
-	margin: 14px 0;
-	font-size: 2rem;
-	line-height: 1.5;
-	font-family: 'Montserrat', sans-serif;
-	color: #FFFFFF;
+.post-row {
+  margin-top: 48px;
 }
 
-#leftPanel {
-	padding-left: 0;
+.col-sm-2 {
+  font-size: 18px;
+  margin-top: 25px;
+  font-family: 'Hind', sans-serif;
 }
 
-#leftPanelContent {
-	margin: 30% 0 0;
-	padding: 80px;
+.col-sm-10 {
+  padding-left: 16px;
+  border-left: 1px solid #A0A0A0;
+  font-family: 'Hind', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.818;
+  font-weight: 300;  
 }
 
-#rightPanelContent {
-	padding: 20px;
+.col-sm-10 h1 {
+  font-family: 'Nunito', sans-serif;
 }
 
-h2 {
-	font-family: "Montserrat", sans-serif;
-	font-size: 1.75rem;
-	line-height: 1.85;
-	color: #018181;
-}
-
-p {
-	font-family: "Hind", sans-serif;
-	font-size: 1.5rem;
-	line-height: 1.818;
-	font-weight: 300;
-}
-
-#rightPanel {
-	height: 100vh;
-}
-
-#leftPanel {
-	height: 100vh;
-	background: -moz-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* ff3.6+ */
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(153,218,255,1)), color-stop(100%, rgba(0,128,128,1))); /* safari4+,chrome */
-	background: -webkit-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* safari5.1+,chrome10+ */
-	background: -o-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* opera 11.10+ */
-	background: -ms-linear-gradient(53deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* ie10+ */
-	background: linear-gradient(37deg, rgba(153,218,255,1) 0%, rgba(0,128,128,1) 100%); /* w3c */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#99DAFF',GradientType=0 ); /* ie6-9 */	
-}
 
 /* Hamburger Styles */
 a
 {
-  color: #232323;
+  color: #EDEDED;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -117,7 +96,7 @@ a:hover
   margin-bottom: 5px;
   position: relative;
   
-  background: #ededed;
+  background: #232323;
   border-radius: 3px;
   
   z-index: 1;
@@ -147,7 +126,7 @@ a:hover
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #EDEDED;
 }
 
 /*
@@ -181,7 +160,7 @@ a:hover
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  background: #232323;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
