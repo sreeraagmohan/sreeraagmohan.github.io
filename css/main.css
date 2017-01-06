@@ -1,15 +1,11 @@
+@media (min-width: 768px) {
+  html, body {
+    overflow-y: hidden;
+  }
+}
+
 html, body {
     max-width: 100%;
-    overflow: hidden;
-}
-
-#main {
-	height: 100%;
-}
-
-img {
-	width: 500px;
-	height: 350px;
 }
 
 h1 {
