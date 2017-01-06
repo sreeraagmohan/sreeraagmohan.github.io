@@ -17,7 +17,9 @@ category: thoughts
 	<div class="col-sm-10">
 		<h1>{{post.title}}</h1>
 		<p>{{post.content}}</p>
-		<div class="fb-comments" data-href="https://sreeraagmohan.github.io{{post.url}}" data-width="100% !important" data-numposts="3"></div>
+		<!-- Facebook Comments Plugin -->
+		<div class="fb-comments" data-href="https://sreeraagmohan.github.io{{post.url}}" data-numposts="3" data-colorscheme="light"></div>
+		<style>.fb_iframe_widget span[style]{width:100% !important;}</style>
 	</div>
 </div>
 {% endfor %}
