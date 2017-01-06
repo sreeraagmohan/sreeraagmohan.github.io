@@ -13,22 +13,22 @@
         <meta property="og:url" content="http://sreeraagmohan.github.io">
 
         <!-- Favicons for all platforms -->
-        <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-        <link rel="manifest" href="images/favicon/manifest.json">
+        <link rel="apple-touch-icon" sizes="57x57" href="../../images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../../images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../../images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../../images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../../images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../../images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../../images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../../images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../../images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../../images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../../images/favicon/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="../../images/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
         <title>Sreeraag Mohan</title>
@@ -37,6 +37,14 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Hind:400,600,300|Nunito' rel='stylesheet' type='text/css'>
         <!-- Included CSS Files -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1049291935197665";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>        
 </head>
     <body>
 	<link rel="stylesheet" href="../../css/category.css">
@@ -48,20 +56,15 @@
                 <span></span>
             <ul id="menu">
               <a href="/"><li>Home</li></a>
-              <a href="../category/thoughts"><li>Thoughts</li></a>
-              <a href="#"><li>Bookmarks</li></a>
-              <a href="#"><li>Espresso</li></a>
-              <a href="#"><li>Shutterbug</li></a>
+              <a href="/category/thoughts"><li>Thoughts</li></a>
+              <a href="/category/bookmarks"><li>Bookmarks</li></a>
+              <a href="/category/espresso"><li>Espresso</li></a>
+              <a href="/category/shutterbug"><li>Shutterbug</li></a>
               <a href="#"><li>About</li></a>
             </ul>
-        </div>
-		<div class="col-sm-12">
-	        <center>
-	            <img class="category-img" src="../../images/thoughts.jpg">
-	        </center>
-		</div>
+      </div>
 	</div>
-	<div class="row">
+	<div class="container">
 		<p>I once had a painter friend who usually painted scenes from life, mainly deserted rooms, abandoned houses and women. Gradually, his work became more abstract, and his paintings became just rebellious patches of colour. Dark blotches amidst deep shades of blue.</p>
 
 <p>I asked about his progress from modern realism to abstraction. Reality has become so untolerable, he said, so bleak, that all I can paint now are the colours of my dreams.</p>
@@ -72,7 +75,7 @@
 
 <p>My dreams are not blue, they are not as vibrant a riot of colour that put a rangoli to shame. Monochromatic and binary, they exist on the very edge of the spectrum, absorbing as black, reflective as white.</p>
 
-<p>In life, seldom are there shades of grey, and what is your life, if nothing but somebody else&#39;s dream?</p>
+<p>In life, seldom are there shades of grey, and what is your life, if nothing but somebody else’s dream?</p>
 
 	</div>
 	<!-- Initialize JS Plugins/Shims -->
