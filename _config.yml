@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Sreeraag Mohan | Personal Webpage
 description:      'Homo sapiens based in Bengaluru, KA.'
 url:              http://sreeraagmohan.github.io
-baseurl:          
+fbcomments:       yes 
 
 author:
   name:           'Sreeraag Mohan'
