@@ -58,7 +58,7 @@ p {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#99DAFF',GradientType=0 ); /* ie6-9 */	
 }
 
-.text-link {
+a.text-link {
   color: #018181;
   font-weight: bold;
 }
