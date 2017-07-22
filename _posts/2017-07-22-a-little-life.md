@@ -1,6 +1,6 @@
 ---
 layout: category
-title: The Curry Coast
+title: A Little Life
 category: bookmarks
 ---
 
