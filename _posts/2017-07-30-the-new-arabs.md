@@ -1,0 +1,13 @@
+---
+layout: category
+title: The New Arabs : How the Wired and Global Youth of the Middle East Is Transforming It
+category: bookmarks
+---
+
+_We have made this revolution. Our families were used to keeping quiet. We didn’t keep quiet. We went out to get our dream._
+
+On 17 December 2010, Mohamed Bouazizi set himself on fire after a long tryst with frustration and hopelessness - frustrated at being extorted indiscriminately, hopelessness with the bleak future that greeted him in an oppressed regime that was run akin to a cartel and denied basic human rights to many. His martyrdom brought to the surface the dormant resentment among the Arab population, leading to a revolutionary wave across the Arab World. But unlike the many revolutions that had preceded it, this wave was different. For the first time, the world witnessed how intransigent regimes can be toppled by leaderless democratic crowds, brought together by social media, that stand firm and courageously refuse to go home until their demands for change are met.
+
+Juan Cole, noted American academic and commentator on Middle East and South Asian politics, keenly examines the causes and the characters behind these uprisings. Cole focuses on three countries in particular: Tunisia, Egypt and Libya, presenting an outstanding report on the changes these effected. Cole also presents a myriad of characters, which at times makes for complex reading, but each one of them have their unique story to tell.
+
+Though Cole himself acknowledges that the revolution is far from over, the author, in his concluding statements, notes that the ideals that arose from the streets of Tunis and Tahrir Square have influenced protests and revolutions across the world; there will never be another republican monarchy in the Arab World, the millennials have brought about enough change to ensure that does not happen.
