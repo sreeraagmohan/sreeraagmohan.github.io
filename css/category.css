@@ -2,6 +2,7 @@
 body {
   overflow-x: hidden;
   background: #EDEDED;
+  background-image: url('../images/background.png');
 }
 
 #category h1 {
