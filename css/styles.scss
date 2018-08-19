@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chivo:400,700');
+
+body{
+  margin: 20px 20px 50px 20px;
+
+}
+
+h1{
+  font-family: 'Chivo', sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+h2{
+  font-family: 'Chivo', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+
+
+h3{
+  font-family: 'Chivo', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 10px;
+  color: #000;
+  margin-top: 0px;
+
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Chivo', sans-serif;
+}
+
+
+a h3{
+  color: #878787;
+  text-decoration: none;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+
+
+a h3:hover{
+  color: #000;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+
+#wrapper{
+  max-width: 1100px;
+  margin: auto;
+}
+
+#intro{
+  padding: 180px 0px 120px 0px;
+}
+
+#about{
+  max-width: 650px;
+}
+
+#bio{
+  padding: 5px 0px 20px 0px;
+}
+
+
+.link a{
+  border-bottom: 2px solid #000;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Chivo', sans-serif;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+
+.link a:hover{
+  // border-bottom: 2px solid #878787;
+  color: #878787;
+  cursor: pointer;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+
+
+
+.line{
+  height: 1px;
+  background-color: #D8D8D8;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  clear: both;
+
+}
+
+.left-column{
+  width: 40%;
+  float: left;
+}
+
+.right-column{
+  width:60%;
+  float: left;
+  margin-bottom: 50px;
+}
+
+
+section {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+}
+section img {
+  cursor: pointer;
+  width: 100%;
+}
+
+#slideshow1 .lSAction > a {
+  display: none;
+}
+
+#slideshow1 .lSSlideOuter .lSPager.lSpg > li{
+  display: none;
+}
+
+#slideshow3 .lSAction > a {
+  background-image: url('../img/controls-white.svg');
+}
+
+footer{
+  padding-top: 100px;
+}
+
+footer h3{
+  display:inline-block;
+  color: #878787;
+}
+
+footer a{
+  float:right;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+
+footer a:hover{
+  float:right;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+
+
+
+/*ipad*/
+@media only screen and (max-width : 1024px){
+
+  body{
+    margin: 40px 40px 50px 40px;
+
+  }
+
+  #intro{
+    padding: 200px 0px 250px 0px;
+  }
+
+}
+
+
+/*large phones*/
+@media only screen and (max-width : 736px){
+
+  body{
+    margin: 20px 20px 40px 20px;
+
+  }
+
+  #intro{
+    padding: 100px 0px 250px 0px;
+  }
+
+  .links{
+    padding-bottom: 100px;
+  }
+
+  .left-column{
+    width: 100%;
+  }
+
+  .right-column{
+    width: 100%;
+  }
+
+  h1{
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  h2{
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+
+
+  h3{
+    font-size: 18px;
+    line-height: 6px;
+
+  }
+
+
+    #link1{
+      display: block;
+      width: 100%;
+    }
+    #link2{
+      display: block;
+      width:100%;
+      text-align: left;
+
+    }
+    #link3{
+      display: block;
+      float: none;
+    }
+
+}
+
+
+/*small phones*/
+@media only screen and (max-width : 414px){
+
+  body{
+    margin: 20px 20px 40px 20px;
+
+  }
+
+  #intro{
+    padding: 100px 0px 250px 0px;
+  }
+
+  .container .lSAction > a {
+    display: none;
+  }
+
+  .line {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  section {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .container .lSSlideOuter .lSPager.lSpg {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  footer h3{
+    display:block;
+  }
+
+  footer a{
+    float:none;
+  }
+
+
+}
